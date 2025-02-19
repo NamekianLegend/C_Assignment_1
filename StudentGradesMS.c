@@ -10,6 +10,10 @@ int main() {
     int numOfStudentsProcessed = 0; // Initialize the number of students processed to 0
     float classAverage = 0.0f; // Initialize the class average to 0.0
 
+    printf("Welcome to the Student Grades Management System\n");
+    printf("================================================\n");
+    printf("\n");
+
     while (true) { // Use an infinite loop to process multiple students
         printf("Enter student name: \n"); // Prompt the user to enter student name
         scanf(" %[^\n]", studentName); // Read the student name as a string
